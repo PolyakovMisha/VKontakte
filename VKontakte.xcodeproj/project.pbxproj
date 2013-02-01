@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8EA6ED161AF7060000D028 /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8EA6EB161AF7050000D028 /* WebView.m */; };
+		8C8EA6EE161AF7060000D028 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C8EA6EC161AF7060000D028 /* WebView.xib */; };
+		8C954E8016130B6000EF511D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C954E7F16130B6000EF511D /* UIKit.framework */; };
+		8C954E8216130B6000EF511D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C954E8116130B6000EF511D /* Foundation.framework */; };
+		8C954E8416130B6000EF511D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C954E8316130B6000EF511D /* CoreGraphics.framework */; };
+		8C954E8A16130B6000EF511D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C954E8816130B6000EF511D /* InfoPlist.strings */; };
+		8C954E8C16130B6000EF511D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C954E8B16130B6000EF511D /* main.m */; };
+		8C954E9016130B6000EF511D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C954E8F16130B6000EF511D /* AppDelegate.m */; };
+		8C954E9316130B6000EF511D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C954E9216130B6000EF511D /* ViewController.m */; };
+		8C954E9616130B6000EF511D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C954E9416130B6000EF511D /* ViewController.xib */; };
+		8C954EA316131CD800EF511D /* WebTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C954EA116131CD700EF511D /* WebTextView.m */; };
+		8C954EA416131CD800EF511D /* WebTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C954EA216131CD800EF511D /* WebTextView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C8EA6EA161AF7050000D028 /* WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		8C8EA6EB161AF7050000D028 /* WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		8C8EA6EC161AF7060000D028 /* WebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		8C954E7B16130B6000EF511D /* VKontakte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKontakte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C954E7F16130B6000EF511D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C954E8116130B6000EF511D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C954E8316130B6000EF511D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C954E8716130B6000EF511D /* VKontakte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKontakte-Info.plist"; sourceTree = "<group>"; };
+		8C954E8916130B6000EF511D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C954E8B16130B6000EF511D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C954E8D16130B6000EF511D /* VKontakte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKontakte-Prefix.pch"; sourceTree = "<group>"; };
+		8C954E8E16130B6000EF511D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C954E8F16130B6000EF511D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C954E9116130B6000EF511D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C954E9216130B6000EF511D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C954E9516130B6000EF511D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8C954EA016131CD700EF511D /* WebTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebTextView.h; sourceTree = "<group>"; };
+		8C954EA116131CD700EF511D /* WebTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebTextView.m; sourceTree = "<group>"; };
+		8C954EA216131CD800EF511D /* WebTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebTextView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C954E7816130B6000EF511D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C954E8016130B6000EF511D /* UIKit.framework in Frameworks */,
+				8C954E8216130B6000EF511D /* Foundation.framework in Frameworks */,
+				8C954E8416130B6000EF511D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C954E7016130B5F00EF511D = {
+			isa = PBXGroup;
+			children = (
+				8C954E8516130B6000EF511D /* VKontakte */,
+				8C954E7E16130B6000EF511D /* Frameworks */,
+				8C954E7C16130B6000EF511D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C954E7C16130B6000EF511D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C954E7B16130B6000EF511D /* VKontakte.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C954E7E16130B6000EF511D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C954E7F16130B6000EF511D /* UIKit.framework */,
+				8C954E8116130B6000EF511D /* Foundation.framework */,
+				8C954E8316130B6000EF511D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C954E8516130B6000EF511D /* VKontakte */ = {
+			isa = PBXGroup;
+			children = (
+				8C954E8E16130B6000EF511D /* AppDelegate.h */,
+				8C954E8F16130B6000EF511D /* AppDelegate.m */,
+				8C954E9116130B6000EF511D /* ViewController.h */,
+				8C954E9216130B6000EF511D /* ViewController.m */,
+				8C954E9416130B6000EF511D /* ViewController.xib */,
+				8C954E8616130B6000EF511D /* Supporting Files */,
+				8C954EA016131CD700EF511D /* WebTextView.h */,
+				8C954EA116131CD700EF511D /* WebTextView.m */,
+				8C954EA216131CD800EF511D /* WebTextView.xib */,
+				8C8EA6EA161AF7050000D028 /* WebView.h */,
+				8C8EA6EB161AF7050000D028 /* WebView.m */,
+				8C8EA6EC161AF7060000D028 /* WebView.xib */,
+			);
+			path = VKontakte;
+			sourceTree = "<group>";
+		};
+		8C954E8616130B6000EF511D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C954E8716130B6000EF511D /* VKontakte-Info.plist */,
+				8C954E8816130B6000EF511D /* InfoPlist.strings */,
+				8C954E8B16130B6000EF511D /* main.m */,
+				8C954E8D16130B6000EF511D /* VKontakte-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C954E7A16130B6000EF511D /* VKontakte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C954E9916130B6000EF511D /* Build configuration list for PBXNativeTarget "VKontakte" */;
+			buildPhases = (
+				8C954E7716130B6000EF511D /* Sources */,
+				8C954E7816130B6000EF511D /* Frameworks */,
+				8C954E7916130B6000EF511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKontakte;
+			productName = VKontakte;
+			productReference = 8C954E7B16130B6000EF511D /* VKontakte.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C954E7216130B5F00EF511D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8C954E7516130B5F00EF511D /* Build configuration list for PBXProject "VKontakte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C954E7016130B5F00EF511D;
+			productRefGroup = 8C954E7C16130B6000EF511D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C954E7A16130B6000EF511D /* VKontakte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C954E7916130B6000EF511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C954E8A16130B6000EF511D /* InfoPlist.strings in Resources */,
+				8C954E9616130B6000EF511D /* ViewController.xib in Resources */,
+				8C954EA416131CD800EF511D /* WebTextView.xib in Resources */,
+				8C8EA6EE161AF7060000D028 /* WebView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C954E7716130B6000EF511D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C954E8C16130B6000EF511D /* main.m in Sources */,
+				8C954E9016130B6000EF511D /* AppDelegate.m in Sources */,
+				8C954E9316130B6000EF511D /* ViewController.m in Sources */,
+				8C954EA316131CD800EF511D /* WebTextView.m in Sources */,
+				8C8EA6ED161AF7060000D028 /* WebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C954E8816130B6000EF511D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C954E8916130B6000EF511D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C954E9416130B6000EF511D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C954E9516130B6000EF511D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C954E9716130B6000EF511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C954E9816130B6000EF511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C954E9A16130B6000EF511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				INFOPLIST_FILE = "VKontakte/VKontakte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C954E9B16130B6000EF511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKontakte/VKontakte-Prefix.pch";
+				INFOPLIST_FILE = "VKontakte/VKontakte-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C954E7516130B5F00EF511D /* Build configuration list for PBXProject "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C954E9716130B6000EF511D /* Debug */,
+				8C954E9816130B6000EF511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C954E9916130B6000EF511D /* Build configuration list for PBXNativeTarget "VKontakte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C954E9A16130B6000EF511D /* Debug */,
+				8C954E9B16130B6000EF511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C954E7216130B5F00EF511D /* Project object */;
+}
